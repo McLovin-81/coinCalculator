@@ -16,7 +16,7 @@ int coin5Needed = 0;
 int coin11Needed = 0;
 
 
-cout << "Enter your value: ";
+cout << "Enter the value: ";
 cin >> userValue;
 
 
@@ -30,7 +30,7 @@ coin1Needed = CoinsCalculator(coin1, userValue);
 userValue = userValue - (coin1 * coin1Needed);
 
 
-cout << endl << "Your need " << coin11Needed << " <11> coins, " << coin5Needed << " <5> coins and " << coin1Needed << " <1> coins." << endl;
+cout << endl << "You need " << coin11Needed << " <11> coins, " << coin5Needed << " <5> coins and " << coin1Needed << " <1> coins." << endl;
 cout << "You have a total of " << coin11Needed + coin5Needed + coin1Needed << " coins." << endl;
     
     return 0;
